@@ -1,0 +1,13 @@
+<div ng-controller="TiddlerController" ng-init="init()">
+    <h1>{{ bag }}:{{ title }} - Tiddler</h1>
+    <article>
+        <h1>{{ tiddler.title }}</h1>
+        <section ng-bind-html="tiddler.render">
+            <p>Loading...</p>
+        </section>
+        <ul>
+            <li ng-repeat="tag in tiddler.tags">{{ tag }}</li>
+        </ul>
+    </article>
+    <a class="link" href="#/">Home</a>
+</div>

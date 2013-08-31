@@ -1,0 +1,13 @@
+h1, .link {
+    margin: 10px;
+}
+
+article, section {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.link {
+    margin: 5px;
+}
